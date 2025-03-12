@@ -1,11 +1,20 @@
-# Sistem Bimbingan Akademik
+# 🎓 Sistem Bimbingan Akademik
 
-Sistem Bimbingan Akademik adalah aplikasi berbasis web yang dirancang untuk memfasilitasi interaksi antara mahasiswa dan dosen dalam proses bimbingan akademik. Aplikasi ini memungkinkan mahasiswa untuk mengajukan jadwal bimbingan, sementara dosen dapat mengelola jadwal tersebut dan memberikan catatan terkait bimbingan.
+🚀 **Sistem Bimbingan Akademik** adalah aplikasi berbasis web yang dirancang untuk memfasilitasi interaksi antara mahasiswa dan dosen dalam proses bimbingan akademik. Aplikasi ini memungkinkan mahasiswa untuk mengajukan jadwal bimbingan, sementara dosen dapat mengelola jadwal tersebut dan memberikan catatan terkait bimbingan.
 
-Aplikasi ini juga dilengkapi dengan fitur admin yang memungkinkan pengelolaan pengguna, seperti menambah atau menghapus akun mahasiswa dan dosen. Dengan sistem berbasis web ini, proses bimbingan akademik menjadi lebih terstruktur dan terdokumentasi dengan baik.
+## ✨ Fitur Utama
+✅ Mahasiswa dapat mengajukan jadwal bimbingan 📅  
+✅ Dosen dapat mengelola bimbingan dan memberikan catatan ✍️  
+✅ Admin dapat menambah/menghapus pengguna ⚙️  
+✅ Semua histori bimbingan terdokumentasi dengan baik 📜  
 
-Dikembangkan menggunakan Flask sebagai backend, SQLAlchemy untuk manajemen database, dan template berbasis HTML serta Jinja2 untuk tampilan antarmuka, aplikasi ini memberikan solusi sederhana namun efektif dalam mendukung kegiatan akademik.
+## 🛠 Teknologi yang Digunakan
+- 🐍 **Flask** sebagai backend
+- 🗃 **SQLAlchemy** untuk manajemen database
+- 🖥 **HTML & Jinja2** untuk tampilan antarmuka
+
+## 📌 Tentang Proyek
+Aplikasi ini membantu proses bimbingan akademik menjadi lebih **terstruktur**, **efektif**, dan **terdokumentasi**. Dikembangkan untuk mendukung mahasiswa, dosen, dan admin dalam mengelola bimbingan akademik dengan lebih baik.
 
 ---
-
-Dikembangkan oleh **rwx4m**
+👨‍💻 **Dikembangkan oleh:** **rwx4m**  
