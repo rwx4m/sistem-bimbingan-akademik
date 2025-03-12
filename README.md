@@ -16,5 +16,7 @@
 ## 📌 Tentang Proyek
 Aplikasi ini membantu proses bimbingan akademik menjadi lebih **terstruktur**, **efektif**, dan **terdokumentasi**. Dikembangkan untuk mendukung mahasiswa, dosen, dan admin dalam mengelola bimbingan akademik dengan lebih baik.
 
+> ⚠️ **Catatan:** Proyek ini hanyalah proyek pribadi yang dibuat untuk latihan dan pembelajaran. Tidak digunakan dalam lingkungan produksi atau institusi resmi.
+
 ---
 👨‍💻 **Dikembangkan oleh:** **rwx4m**  
