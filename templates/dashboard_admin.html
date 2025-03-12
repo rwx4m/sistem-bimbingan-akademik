@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard Admin</title>
+    <style>
+        body { font-family: Arial, sans-serif; background-color: #f4f4f4; text-align: center; }
+        .container { width: 80%; margin: 50px auto; padding: 20px; background: white; border-radius: 10px; box-shadow: 0px 0px 10px rgba(0,0,0,0.1); }
+        .stats { font-size: 18px; margin-top: 20px; }
+        .btn { padding: 10px 15px; border-radius: 5px; text-decoration: none; color: white; margin: 5px; }
+        .btn-manage { background-color: #007bff; }
+        .btn-logout { background-color: #dc3545; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Dashboard Admin</h2>
+        <div class="stats">
+            <p>👨‍🎓 Total Mahasiswa: {{ total_mahasiswa }}</p>
+            <p>👨‍🏫 Total Dosen: {{ total_dosen }}</p>
+            <p>📅 Total Bimbingan: {{ total_bimbingan }}</p>
+            <p>✅ Bimbingan Selesai: {{ bimbingan_selesai }}</p>
+            <p>⏳ Bimbingan Menunggu: {{ bimbingan_menunggu }}</p>
+            <p>📌 Bimbingan Diterima: {{ bimbingan_diterima }}</p>
+        </div>
+        <br>
+        <a href="{{ url_for('kelola_pengguna') }}" class="btn btn-manage">⚙️ Kelola Pengguna</a>
+        <a href="{{ url_for('logout') }}" class="btn btn-logout">🚪 Logout</a>
+    </div>
+</body>
+</html>

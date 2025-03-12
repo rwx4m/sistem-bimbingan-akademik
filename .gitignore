@@ -1,0 +1,29 @@
+# Abaikan virtual environment
+.venv/
+env/
+
+# Abaikan database SQLite
+instances/database.db
+*.sqlite3
+
+# Abaikan file konfigurasi & kredensial sensitif
+.env
+config.py
+__pycache__/
+
+# Abaikan file sementara dan cache Python
+*.pyc
+*.pyo
+*.pyd
+*.log
+*.tmp
+*.swp
+*.swo
+
+# Abaikan file dari sistem operasi (Windows & macOS)
+.DS_Store
+Thumbs.db
+
+# Abaikan folder yang dibuat oleh editor & IDE
+.vscode/
+.idea/

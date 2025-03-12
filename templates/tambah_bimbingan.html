@@ -1,0 +1,35 @@
+<!-- templates/tambah_bimbingan.html -->
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tambah Bimbingan</title>
+    <style>
+        body { font-family: Arial, sans-serif; text-align: center; background-color: #f4f4f4; }
+        .container { max-width: 400px; margin: 50px auto; padding: 20px; background: white; border-radius: 10px; box-shadow: 0px 0px 10px rgba(0,0,0,0.1); }
+        input, select { width: 100%; padding: 10px; margin: 10px 0; border: 1px solid #ccc; border-radius: 5px; }
+        button { background-color: #007bff; color: white; padding: 10px; border: none; cursor: pointer; border-radius: 5px; width: 100%; }
+        button:hover { background-color: #0056b3; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Tambah Jadwal Bimbingan</h2>
+        <form method="POST">
+            <label for="dosen_id">Pilih Dosen:</label>
+            <select name="dosen_id" required>
+                {% for dosen in dosen_list %}
+                <option value="{{ dosen.id }}">{{ dosen.username }}</option>
+                {% endfor %}
+            </select>
+            <label for="waktu">Waktu Bimbingan:</label>
+            <input type="datetime-local" name="waktu" required>
+            <button type="submit">Tambah</button>
+        </form>
+        <br>
+        <a href="{{ url_for('dashboard') }}" style="background-color: #6c757d; color: white; padding: 10px 15px; border-radius: 5px; text-decoration: none;">⬅ Kembali</a>
+
+    </div>
+</body>
+</html>
